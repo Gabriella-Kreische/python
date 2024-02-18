@@ -1,0 +1,7 @@
+n = input('Type something: ')
+print(type(n))
+print('Is it Alpha?\n', n.isalpha())
+print('Is it Alphanumeric?\n', n.isalnum())
+print('Is it Lower case?\n', n.islower())
+print('Is it Upper case?\n', n.isupper())
+print('Is it Space?\n', n.isspace())

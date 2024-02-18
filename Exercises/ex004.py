@@ -1,0 +1,10 @@
+v1 = input('Type something: ')
+print('The primitive data structure is {}'.format(type(v1)))
+print('Does it have only spaces?', v1.isspace())
+print('Is it a number?', v1.isnumeric())
+print('Is it alphabetic?', v1.isalpha())
+print('Is it alphanumeric?', v1.isalnum())
+print('Is it uppercase?', v1.isupper())
+print('Is it lowercase?', v1.islower())
+print('Is it capitalized?', v1.istitle())
+
