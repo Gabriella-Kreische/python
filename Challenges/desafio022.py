@@ -1,0 +1,7 @@
+name = input('What is your name? ')
+print(name.upper())
+print(name.lower())
+print('Name length:', len(name))
+split_name = name.split()
+print(split_name)
+print('First name length is:', len(split_name[0]))
